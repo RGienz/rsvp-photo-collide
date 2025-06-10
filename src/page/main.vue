@@ -146,7 +146,7 @@ onMounted(() => {
         }">
             <div v-if="item.id === 'home-section'">
                 <!-- <div class="relative w-full max-w-4xl mx-auto py-12 px-6"> -->
-                  <div class="w-full h-full relative">
+                  <div class="w-sm h-full relative">
 
                     <!-- <h1 class="text-6xl md:text-8xl font-extrabold text-gray-900 leading-tight mb-8 animate-fade-in-down"> -->
                         <!-- Discover Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Amazing</span> Story -->
