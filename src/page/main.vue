@@ -148,8 +148,10 @@ onMounted(() => {
                         <div v-for="(image, index) in homeImages" :key="index"
                             class="relative overflow-hidden rounded-xl shadow-2xl group transform hover:-translate-y-2 hover:scale-102 transition-all duration-500 animate-fade-in-up"
                             :style="{ 'animation-delay': `${index * 0.15}s` }">
+                            <!-- <img :src="image.src" :alt="image.alt"
+                                class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110 aspect-[3/4] filter grayscale group-hover:grayscale-0" /> -->
                             <img :src="image.src" :alt="image.alt"
-                                class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110 aspect-[3/4] filter grayscale group-hover:grayscale-0" />
+                                class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110 aspect-[3/4] filter " />
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center p-4">
                                 <p class="text-white text-lg font-semibold transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">{{ image.title }}</p>
                             </div>

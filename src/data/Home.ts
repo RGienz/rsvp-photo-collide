@@ -8,7 +8,6 @@ export const homeContent = `
   </div>
 `;
 
-// You can also export image data if you want to manage it outside main.vue
 export const homeImages = [
   { src: '/public/imageCollide/1.png', alt: 'Gallery Image 1', title: 'Image 1 Title' },
   { src: '/public/imageCollide/2.png', alt: 'Gallery Image 2', title: 'Image 2 Title' },
