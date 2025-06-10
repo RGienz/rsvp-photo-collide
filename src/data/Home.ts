@@ -34,4 +34,4 @@ export const homeImages = [
   { src: '/imageCollide/4.png', alt: 'Gallery Image 4', title: 'Image 4 Title' },
   { src: '/imageCollide/5.png', alt: 'Gallery Image 5', title: 'Image 5 Title' },
   { src: '/imageCollide/6.png', alt: 'Gallery Image 6', title: 'Image 6 Title' },
-];
+]; 
